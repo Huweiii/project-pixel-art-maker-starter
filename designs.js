@@ -38,7 +38,7 @@ table.addEventListener('click', function(event){
     // 查看backgroundColor
     console.info("color=" + event.target.style.backgroundColor);
 
-    if(td.style.backgroundColor != '' && td.style.backgroundColor == color.value){
+    if(td.style.backgroundColor != ''){
         td.style.backgroundColor = '';
     }else{
         td.style.backgroundColor = color.value;
